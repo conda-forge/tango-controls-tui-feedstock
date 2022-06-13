@@ -1,5 +1,5 @@
 {% set name = "tango-controls-tui" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SKAJohanVenter/tango-controls-tui/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 8fe649f5d6aa56a9e6c69d3773bf3755791c396db54675ef1a6313b40bb4b0e2
+  sha256: 6c5439904fb361ab08a3ecb02cd11be24d29f45cba1cb3cc5d153b7e34dbc0c2
 
 build:
   number: 0
@@ -34,7 +34,7 @@ about:
   license_file:
     - LICENSE.GPL-3.0
     - THIRDPARTY.yml
-  summary: 'TUI to explore tango devices'
+  summary: TUI to explore tango devices
   description: |
     Text-based user interfaces to explore tango devices.
     Tango-Controls is a software toolkit for building control systems.

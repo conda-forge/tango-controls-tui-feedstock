@@ -1,5 +1,3 @@
-cp $RECIPE_DIR/Cargo.lock .
-
 cargo-bundle-licenses \
     --format yaml \
     --output THIRDPARTY.yml
